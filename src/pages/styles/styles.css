@@ -1,0 +1,134 @@
+.header{
+    height: 176px;
+    background-image: url('../../assets/wave-gradient.svg');
+    background-repeat:no-repeat;
+    background-color: #F7F7F7;
+    background-size: cover;
+}
+
+.title{
+    margin-top: 95px;
+    font-size: 40px;
+    font-weight: 900;
+    color: #000000;
+}
+
+.subtitle{
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+}
+
+.contact-btn{
+    margin-top: 10px;
+    width: 155px;
+    height: 46px;
+    background: linear-gradient(270deg, #0075FF 3.87%, #00B2FF 127.1%);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+    color:#F7F7F7;
+    font-size: 14px;
+    font-weight: 400px;
+    cursor: pointer;
+}
+
+
+footer{
+    margin-top: 35px;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    padding-bottom: 55px;
+    border-left: 1px solid rgba(0,0,0,0.18);
+    box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.18);
+    
+}
+
+.icon-footer{
+    padding-right: 15px;
+}
+.icon-footer img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.icon-btn{
+    padding-left: 10px;
+}
+
+/*About me component styles*/
+
+.title-am{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.aboutme-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding: 0 10% 0 10%;    
+}
+
+.img-profile{
+    width: 170px;
+    height: 170px;
+    border-radius: 95px;
+}
+
+.aboutme-container{
+    margin-top: 5px;
+    
+}
+
+.skills-title{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000000;
+}
+.skills{
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.card-skill{
+    width: 30%;
+    border: 1px solid lightblue;
+    display: inline-table;
+    margin: 5px;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba(53, 60, 151, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+
+    background: linear-gradient(270deg, #0075FF 3.87%, #00B2FF 127.1%);
+    color:#F7F7F7;
+    height: 150px !important;
+    
+}
+.card-skill ul{
+    margin: 0;
+    padding: 0;
+    width: 33%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.card-skill:hover{
+    box-shadow: 0 8px 32px 0 rgba(173, 173, 175, 0.37);
+}
+
+@media(max-width: 700px){
+    .card-skill{
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .skills{
+        padding: 30px;
+    }
+}
