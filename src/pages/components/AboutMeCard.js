@@ -10,7 +10,7 @@ const AboutMeCard = () =>{
                 fascinating to analyze, design and develop solutions through 
                 technology.  I have participated in projects in the financial, 
                 billing, electro mobility and pharmaceutical fields.
-            </p>
+            </p> 
         </center>
         
     )
