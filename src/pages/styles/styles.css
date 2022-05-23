@@ -131,4 +131,13 @@ footer{
     .skills{
         padding: 30px;
     }
+    .header{
+        background-image: url('../../assets/responsive-wave.svg');
+    }
+}
+
+@media(max-width: 500px){
+    .header{
+        background-image: url('../../assets/wave-responsive.svg');
+    }
 }
