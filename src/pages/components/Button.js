@@ -1,12 +1,12 @@
 const Button = () =>{
-    const onClick = ()=>{
-        alert('clicked');
-    }
     return(
-        <button className="contact-btn" onClick={onClick}>
-            Get In Touch 
-            <img className='icon-btn' src={require('../../assets/Group.png')} alt="Imagen boton"/>
-        </button>
+        <a href='mailto:geramolest@gmail.com'>
+            <button className="contact-btn">
+                Get In Touch 
+                <img className='icon-btn' src={require('../../assets/Group.png')} alt="Imagen boton"/>
+            </button>
+        </a>
+        
     )
 }
 
