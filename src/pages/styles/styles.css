@@ -134,6 +134,10 @@ footer{
     .header{
         background-image: url('../../assets/responsive-wave.svg');
     }
+    .title{
+        margin-top: 55px;
+        padding: 15px;
+    }
 }
 
 @media(max-width: 500px){
