@@ -143,8 +143,18 @@ footer{
 @media(max-width: 500px){
     .header{
         background-image: url('../../assets/wave-responsive.svg');
+        
     }
     .title{
-        margin-top: 10px;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width: 400px){
+    .header{
+        height: 140px;
+    }
+    .title{
+        margin-top: 5px;
     }
 }
